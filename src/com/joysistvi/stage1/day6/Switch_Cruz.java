@@ -7,6 +7,12 @@ public class Switch_Cruz {
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("=== Student Portal Menu ===");
+        System.out.println("1. View Grades");
+        System.out.println("2. Enroll Subjects");
+        System.out.println("3. Pay Tuition");
+        System.out.println("4. Exit");
+
         System.out.print("Enter a number (1-4): ");
         int choice = sc.nextInt();
 

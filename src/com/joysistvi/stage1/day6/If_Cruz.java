@@ -7,6 +7,12 @@ public class If_Cruz {
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("=== Main Menu ===");
+        System.out.println("1. Start Game");
+        System.out.println("2. Load Game");
+        System.out.println("3. Settings");
+        System.out.println("4. Exit");
+
         System.out.print("Enter a number (1-4): ");
         int choice = sc.nextInt();
 
