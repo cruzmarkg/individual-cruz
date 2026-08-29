@@ -15,9 +15,9 @@ public class NestedIfStatement {
             System.out.println("Category: Baby");
         } else if (age >= 3 && age <= 12) {
             System.out.println("Category: Child");
-
         } else if (age >= 13 && age <= 19) {
             System.out.println("Category: Teenager");
+
         } else {
             System.out.println("Invalid Input");
         }
